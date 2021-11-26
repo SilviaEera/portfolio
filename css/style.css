@@ -176,6 +176,9 @@ header {
     background: #D32F2F;
 }
 
+.about-txt p:first-of-type {
+    margin-top: 15px;
+}
 
 
 
