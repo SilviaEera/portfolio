@@ -17,4 +17,39 @@ $(document).ready(function(){
         loopCount:Infinity,
         startDelay:1000
     });
+
+    // progress-bar
+
+    let waypoint = new Waypoint({
+        element: document.getElementById('exp'),
+        handler: function(direction) {
+            let bars = document.querySelectorAll('.progress-bar');
+            bars[0].setAttribute("style", "width:95%; trnsition: all 1s");
+            bars[1].setAttribute("style", "width:80%; trnsition: all 1.3s");
+            bars[2].setAttribute("style", "width:35%; trnsition: all 1.6s");
+            bars[3].setAttribute("style", "width:75%; trnsition: all 1.9s");
+            bars[4].setAttribute("style", "width:45%; trnsition: all 2.2s");
+        },
+        offset:'90%'
+      });
+
+    // slider
+    $('.testi1').owlCarousel({
+        loop: true,
+        margin: 30,
+        nav: false,
+        dots: true,
+        autoplay: true,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: false
+          },
+          1024: {
+            items: 2
+          }
+        }
+      });
+
 });

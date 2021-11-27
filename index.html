@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <!-- custom css -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- owl -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/1d3a7234cb.js" crossorigin="anonymous"></script>
     <!-- fonts -->
@@ -19,7 +21,7 @@
 </head>
 
 <body>
-
+    <!-- sticky and r is a custom class for styling and making sticky nav style -->
     <nav class="navbar navbar-expand-lg sticky fixed-top r-nav ">
         <div class="container">
             <a href="#" class="navbar-brand">
@@ -40,7 +42,7 @@
                         <a href="#about" class="nav-link">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#service" class="nav-link">Services</a>
+                        <a href="#exp  " class="nav-link">Services</a>
                     </li>
                     <li class="nav-item">
                         <a href="#client" class="nav-link">Client</a>
@@ -57,7 +59,7 @@
     </nav>
 
     <header id="home">
-        <div class="container-fluid header-content">
+        <div class="container-fluid header-content mb-5">
             <div class="row">
                 <div class="col text-center">
                     <div class="content-box">
@@ -82,7 +84,7 @@
                     <img class="img-fluid img-thumbnail" src="./images/pfp.jpg" alt="profile-picture">
                 </div>
 
-                <div class="col-lg-6 about-txt">
+                <div class="col-lg-6 mt-5 about-txt">
                     <h2>About Me</h2>
                     <h4>Hola! <span class="about-heading-2"></span> I'm Fei</h4>
                     <p>
@@ -104,31 +106,31 @@
 
                     <div>
                         <ul class="list-inline mt-5">
-                            <li class="list-inline-item">
+                            <li class="list-inline-item mb-2">
                                 <a href="#">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
                             </li>
 
-                            <li class="list-inline-item">
+                            <li class="list-inline-item mb-2">
                                 <a href="#">
                                     <i class="fab fa-instagram"></i>
                                 </a>
                             </li>
 
-                            <li class="list-inline-item">
+                            <li class="list-inline-item mb-2">
                                 <a href="#">
                                     <i class="fab fa-discord"></i>
                                 </a>
                             </li>
 
-                            <li class="list-inline-item">
+                            <li class="list-inline-item mb-2">
                                 <a href="#">
                                     <i class="fab fa-youtube"></i>
                                 </a>
                             </li>
 
-                            <li class="list-inline-item">
+                            <li class="list-inline-item mb-2">
                                 <a href="#">
                                     <i class="fab fa-linkedin-in"></i>
                                 </a>
@@ -140,10 +142,230 @@
         </div>
     </section>
 
+    <section id="exp" class="exp">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                    <h3>
+                        My Skills
+                    </h3>
+                </div>
+                <div class="col-lg-6 mt-2">
+                    <label for="">Html</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0"
+                            aria-valuemin="0" aria-valuemax="100">95%</div>
+                    </div>
+
+                    <label class="mt-4" for="">CSS</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0"
+                            aria-valuemin="0" aria-valuemax="100">80%</div>
+                    </div>
+
+                    <label class="mt-4" for="">JavaScript</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0"
+                            aria-valuemin="0" aria-valuemax="100">35%</div>
+                    </div>
+
+                    <label class="mt-4" for="">Bootstrap</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0"
+                            aria-valuemin="0" aria-valuemax="100">75%</div>
+                    </div>
+
+                    <label class="mt-4" for="">React JS</label>
+                    <div class="progress mb-5">
+                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0"
+                            aria-valuemin="0" aria-valuemax="100">45%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- servises -->
+
+    <section id="service" class="service bg-color">
+        <div class="container mt-5 mb-5 text-center">
+            <div class="row pt-5">
+                <div class="col">
+                    <div class="col">
+                        <h2>My Services</h2>
+                        <p>
+                            What we offer to our Clients.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card mt-5">
+                        <div class="card-header">
+                            <i class="fab fa-angular"></i>
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Web Development</h5>
+                            <div class="service-border"></div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas beatae doloremque
+                                ullam consequuntur nostrum debitis quia iure nulla voluptate. Corrupti numquam dicta
+                                quibusdam deleniti at.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card mt-5">
+                        <div class="card-header">
+                            <i class="fab fa-bootstrap"></i>
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Website Design</h5>
+                            <div class="service-border"></div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas beatae doloremque
+                                ullam consequuntur nostrum debitis quia iure nulla voluptate. Corrupti numquam dicta
+                                quibusdam deleniti at.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card mt-5 mb-5">
+                        <div class="card-header">
+                            <i class="fab fa-python"></i>
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">Web Sccraping</h5>
+                            <div class="service-border"></div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas beatae doloremque
+                                ullam consequuntur nostrum debitis quia iure nulla voluptate. Corrupti numquam dicta
+                                quibusdam deleniti at.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hire" class="hire mb-5">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <h3 class="mb-4">I'm Available for Freelance Work</h3>
+                    <a href="#" class="btn r-btn">Hire Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- client section -->
+
+    <section id="client" class=" bg-color client mb-5">
+        <div class="container text-center">
+            <div class="row pt-5">
+                <div class="col">
+                    <div class="col">
+                        <h2>Testimony</h2>
+                        <p>
+                            What Clients Say.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Row  -->
+            <div class="owl-carousel owl-theme testi1 mt-5">
+                <!-- item -->
+                <div class="item">
+                    <div class="card card-shadow border-0 mb-5">
+                        <div class="card-body">
+                            <div class="position-relative thumb bg-success-gradiant d-inline-block text-white mb-4">
+                                <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/testimonial/1.jpg"
+                                    alt="wrapkit" class="thumb-img position-absolute rounded-circle" />
+                                Michelle
+                                Anderson
+                            </div>
+                            <h5 class="font-weight-light">You can relay on our amazing features list and also
+                                our customer services will be great experience. You can relay on our amazing
+                                features.
+                            </h5>
+                            <span class="devider d-inline-block my-3"></span>
+                            <h6 class="font-weight-normal">Managing Director, Theme Designer</h6>
+                        </div>
+                    </div>
+                </div>
+                <!-- item -->
+                <!-- item -->
+                <div class="item">
+                    <div class="card card-shadow border-0 mb-5">
+                        <div class="card-body">
+                            <div class="position-relative thumb bg-success-gradiant d-inline-block text-white mb-4">
+                                <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/testimonial/2.jpg"
+                                    alt="wrapkit" class="thumb-img position-absolute rounded-circle" /> Michelle
+                                Anderson</div>
+                            <h5 class="font-weight-light">You can relay on our amazing features list and also
+                                our customer services will be great experience. You can relay on our amazing
+                                features.</h5>
+                            <span class="devider d-inline-block my-3"></span>
+                            <h6 class="font-weight-normal">CEO, Theme Designer</h6>
+                        </div>
+                    </div>
+                </div>
+                <!-- item -->
+                <!-- item -->
+                <div class="item">
+                    <div class="card card-shadow border-0 mb-5">
+                        <div class="card-body">
+                            <div class="position-relative thumb bg-success-gradiant d-inline-block text-white mb-4">
+                                <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/testimonial/3.jpg"
+                                    alt="wrapkit" class="thumb-img position-absolute rounded-circle" /> Michelle
+                                Anderson</div>
+                            <h5 class="font-weight-light">You can relay on our amazing features list and also
+                                our customer services will be great experience. You can relay on our amazing
+                                features.</h5>
+                            <span class="devider d-inline-block my-3"></span>
+                            <h6 class="font-weight-normal">Managing Director, Theme Designer</h6>
+                        </div>
+                    </div>
+                </div>
+                <!-- item -->
+                <!-- item -->
+                <div class="item">
+                    <div class="card card-shadow border-0 mb-5">
+                        <div class="card-body">
+                            <div class="position-relative thumb bg-success-gradiant d-inline-block text-white mb-4">
+                                <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/testimonial/1.jpg"
+                                    alt="wrapkit" class="thumb-img position-absolute rounded-circle" /> Michelle
+                                Anderson</div>
+                            <h5 class="font-weight-light">You can relay on our amazing features list and also
+                                our customer services will be great experience. You can relay on our amazing
+                                features.</h5>
+                            <span class="devider d-inline-block my-3"></span>
+                            <h6 class="font-weight-normal">Managing Director, Theme Designer</h6>
+                        </div>
+                    </div>
+                </div>
+                <!-- item -->
+            </div>
+        </div>
+    </section>
+
     <script src="./js/jquery-3.6.0.min.js"></script>
     <script src="./js/Popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/typed.js"></script>
+    <script src="./js/jquery.waypoints.min.js"></script>
+    <script src="./js/owl.carousel.js"></script>
     <script src="./js/main.js"></script>
 </body>
 
