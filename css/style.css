@@ -382,7 +382,7 @@ header {
     -o-border-radius: 50%;
 }
 
-.card {
+.card.contact-card {
     background: #f8f9fa;
     border: none !important;
 }
